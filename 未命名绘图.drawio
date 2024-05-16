@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T02:50:43.403Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="ZdkBk823pR1qrMwb5cP3" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T02:51:14.781Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="falGYd25nBbcEae36C9i" version="24.3.1" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,10 +16,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7" value="idle" style="" parent="2" vertex="1">
-          <mxGeometry x="60" y="110" width="110" height="50" as="geometry" />
+          <mxGeometry x="100" y="142" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8" value="user action" style="" parent="2" vertex="1">
-          <mxGeometry x="60" y="220" width="110" height="50" as="geometry" />
+          <mxGeometry x="105.5" y="212" width="84.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="2" source="7" target="8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -39,6 +39,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="eMWX8en5ogP_gKEEAdDG-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="2" source="8" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="192" />
+              <mxPoint x="246" y="192" />
+              <mxPoint x="246" y="302" />
+              <mxPoint x="148" y="302" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3" value="Thread 2" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
           <mxGeometry x="444.5" y="128" width="280" height="570" as="geometry" />
         </mxCell>
@@ -52,6 +62,18 @@
         </mxCell>
         <mxCell id="15" value="idle" style="" parent="3" vertex="1">
           <mxGeometry x="20" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eMWX8en5ogP_gKEEAdDG-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="3" source="16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.5" y="262" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="142" />
+              <mxPoint x="306" y="142" />
+              <mxPoint x="306" y="302" />
+              <mxPoint x="111" y="302" />
+              <mxPoint x="111" y="263" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="16" value="check for &#xa;new commands" style="" parent="3" vertex="1">
           <mxGeometry x="20" y="220" width="110" height="50" as="geometry" />
